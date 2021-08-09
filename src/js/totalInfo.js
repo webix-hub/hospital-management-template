@@ -15,7 +15,7 @@ export const totalInfo = {
 			return `
 				<div class="infoInner">
 					<div class="flex flexColumn alignCenter">
-						<img class="infoImg" src="/items/${obj.img}" alt="${obj.title}" />
+						<img class="infoImg" src="./items/${obj.img}" alt="${obj.title}" />
 						<span class="infoTitle">${obj.title}</span>
 						<span class="infoTotal">${obj.total}</span>
 					</div>
