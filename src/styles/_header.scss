@@ -1,0 +1,25 @@
+.webix_toolbar {
+    .webix_badge {
+        border: 2px solid #FFFFFF;
+        box-sizing: content-box;
+        background-color: #FF8C4C;
+        line-height: 16px;
+        min-width: auto;
+        padding: 0;
+        height: 16px;
+        width: 16px;
+        top: 10px;
+    }
+}
+
+.webix_dark {
+    &.darkHeader {
+        background: #313131;
+        border-color: #313131;
+        .webix_view {
+            &> .webix_template {
+                background-color: #313131;
+            }
+        }
+    }
+}

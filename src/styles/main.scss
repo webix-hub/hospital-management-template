@@ -1,0 +1,101 @@
+@import "header";
+@import "sidebar";
+@import "tables";
+@import "totalInfo";
+@import "lastReports";
+@import "scheduler";
+
+.ellipsis {
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.bgWhite {
+	background-color: #fff;
+}
+.flex {
+	display: flex;
+}
+.flexColumn {
+	flex-direction: column;
+}
+.spaceBetween {
+	justify-content: space-between;
+}
+.alignCenter {
+	align-items: center;
+}
+.smText {
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+}
+.strong {
+	font-weight: 500;
+}
+.pointer {
+	cursor: pointer;
+}
+
+.cardiology {
+	.mdi, &.mdi {
+		color: #ff5c4c;
+	}
+	&.schedulerDept {
+		background-color: #ff5c4c;
+	}
+}
+.oncology {
+	.mdi, &.mdi {
+		color: #fdbf4c;
+	}
+	&.schedulerDept {
+		background-color: #fdbf4c;
+	}
+}
+.neurology {
+	.mdi, &.mdi {
+		color: #45cbab;
+	}
+	&.schedulerDept {
+		background-color: #45cbab;
+	}
+}
+.pathology {
+	.mdi, &.mdi {
+		color: #5ca7ff;
+	}
+	&.schedulerDept {
+		background-color: #5ca7ff;
+	}
+}
+.diabetology {
+	.mdi, &.mdi {
+		color: #ef5da8;
+	}
+	&.schedulerDept {
+		background-color: #ef5da8;
+	}
+}
+.generalSurgery {
+	.mdi, &.mdi {
+		color: #8664c6;
+	}
+	&.schedulerDept {
+		background-color: #8664c6;
+	}
+}
+.psychotherapy {
+	.mdi, &.mdi {
+		color: #4738f2;
+	}
+	&.schedulerDept {
+		background-color: #4738f2;
+	}
+}
+.smRichselect {
+	.webix_el_box {
+		font-size: 12px;
+	}
+}

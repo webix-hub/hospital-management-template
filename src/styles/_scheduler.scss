@@ -1,0 +1,33 @@
+.schedulerItem {
+    border-bottom-color: transparent;
+    display: flex;
+    padding: 0;
+}
+
+.schedulerInner {
+    border: 1px solid #DADEE0;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 6px 12px;
+    padding: 9px 4px;
+    width: 100%;
+}
+
+.schedulerDept {
+    background: #343443;
+    width: 5px;
+    height: 5px;
+    margin: 0 7px 1px 6px;
+    border-radius: 50%;
+}
+.schedulerBooked {
+    font-size: 10px;
+    line-height: 16px;
+}
+.schedulerSubj {
+    line-height: initial;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 4px;
+    margin-left: 18px;
+}

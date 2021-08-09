@@ -1,0 +1,92 @@
+.leftSidebar {
+	border-color: #313131;
+    background-color: #4A4E58;
+	.sidebarUser {
+		background-color: #313131;
+		border-color: #313131;
+	}
+	.sidebarMenu {
+		border-bottom-color: #707886;
+	}
+	.webix_scrollview {
+		border-top-color: #4A4E58;
+	}
+}
+.sidebarMenu {
+	.webix_tree_item {
+		.webix_icon {
+			color: #fff;
+		}
+	}
+}
+.webix_sidebar.webix_dark .newTag {
+	color: #1CA1C1;
+	.mdi {
+		color: #1CA1C1;
+	}
+}
+.userWrapp {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.userImg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	margin-right: 12px;
+	img {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+}
+.userInfo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.userName {
+	color: #fff;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 8px;
+}
+.userPosition {
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 6px;
+}
+.userStatus {
+	background-color: #55CD97;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	bottom: 8px;
+	right: 8px;
+}
+.userRate {
+	display: flex;
+	align-items: center;
+}
+.numRate {
+	color: rgba(255, 255, 255, 0.45);
+	font-size: 12px;
+	line-height: 16px;
+	margin-right: 8px;
+}
+.starRate {
+	.mdi {
+		&:before {
+			font-size: 12px;
+		}
+	}
+}
+.starFull {
+    color: #FDBF4C;
+}

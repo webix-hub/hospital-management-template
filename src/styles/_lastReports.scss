@@ -1,0 +1,28 @@
+.lastReports {
+    .webix_list_item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mdi {
+        cursor: pointer;
+        display: flex;
+        margin: 4px;
+        &:first-of-type {
+            margin-left: 0;
+        }
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+    .mdiBlue {
+        &:before {
+            color: #1CA1C1;
+        }
+    }
+    .mdiLight {
+        &:before {
+            color: #94A1B3;
+        }
+    }
+}

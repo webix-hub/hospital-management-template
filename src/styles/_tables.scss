@@ -1,0 +1,59 @@
+.tables {
+    .customIcon {
+        vertical-align: middle;
+        margin-bottom: 2px;
+        cursor: pointer;
+        &.mdi-checkbox-marked {
+            color: #1CA1C1;
+        }
+        &.mdi-checkbox-blank-outline {
+            color: #94A1B3;
+        }
+    }
+    .flexCol {
+        .webix_cell {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .smallTextCol {
+        .webix_cell {
+            font-size: 12px;
+            line-height: 16px;
+        }
+    }
+    .tablePhoto {
+        width: 36px;
+        height: 36px;
+        margin-right: 8px;
+        img {
+            display: block;
+            border-radius: 50%;
+            height: 100%;
+        }
+    }
+    .tableControl {
+        color: #c9d0d9;
+        cursor: pointer;
+        margin: 0 7px;
+        &:first-of-type {
+            margin-left: 0;
+        }
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+    .starColor {
+        color: #FDBF4C;
+    }
+}
+.tableWithCheckboxes {
+    .webix_first {
+        .webix_cell, &.webix_hcell {
+            padding: 0 7px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
